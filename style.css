@@ -24,3 +24,14 @@ footer {
     background-color: khaki;
     grid-area: footer;
 }
+
+.container {
+    diplay: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "aside"
+    "banner"
+    "footer";
+}
